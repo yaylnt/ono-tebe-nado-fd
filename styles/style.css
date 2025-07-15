@@ -269,6 +269,9 @@
 
 .footer__social-list {
   list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 48px;
 }
 
 .footer__menu-link {
@@ -279,12 +282,6 @@
 
 .footer__menu-link_active {
   text-decoration-line: none;
-}
-
-.footer__social-list {
-  display: flex;
-  justify-content: flex-end;
-  gap: 48px;
 }
 
 .footer__social-icon {
