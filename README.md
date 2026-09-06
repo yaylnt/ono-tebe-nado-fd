@@ -9,6 +9,6 @@
 
 ## Превью
 
-<img width="700" height="363" alt="chrome-capture-2026-09-06 (1)" src="https://github.com/user-attachments/assets/b9346664-4eea-4370-bac3-9a3084a0939e" />
+<img width="1200" height="623" alt="chrome-capture-2026-09-06 (2)" src="https://github.com/user-attachments/assets/d0e8b1e2-e4a1-4ecd-8f3b-073d30dc0d68" />
 
 Запустить проект можно через Live server.
