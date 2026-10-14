@@ -1,32 +1,35 @@
-## Проектная работа «Оно тебе надо»
+English | [Русский](/README.ru.md)
 
-Вёрстка одностраничного лендинга проекта «Оно тебе надо» — аукциона вещей, в которые никто не верил.
+# «Ono Tebe Nado» Project
 
-## Стек
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css" alt="Skills" />
-</p>
+A single-page landing page layout for "Ono Tebe Nado" ("Do You Really Need It") — an auction for things nobody believed in.
 
-## Превью
+**RU version [here](/README_ru.md)**
 
-<img width="1200" height="623" alt="chrome-capture-2026-09-06 (2)" src="https://github.com/user-attachments/assets/d0e8b1e2-e4a1-4ecd-8f3b-073d30dc0d68" />
+## Tech Stack
 
-#### Посмотреть demo: [click](https://yaylnt.github.io/ono-tebe-nado-fd/)
+[![Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
 
-## Мой вклад в проект
+## Preview
 
-- Свёрстана семантическая структура: header, main, footer, три секции, nav, address, article внутри карточек.
+<img width="1200" height="623" alt="preview" src="https://github.com/user-attachments/assets/d0e8b1e2-e4a1-4ecd-8f3b-073d30dc0d68" />
 
-- Лейаут шапки и подвала построен на Grid: три колонки 1fr min-content 1fr, выравнивание по центру.
+### Live demo: [click](https://yaylnt.github.io/ono-tebe-nado-fd/)
 
-- Меню, адрес, описание обложки и карточки свёрстаны через Flexbox с gap, flex-direction, align-items.
+## My Contribution
 
-- Реализован переиспользуемый оверлей с абсолютным позиционированием, relative у родителей и контролем z-index.
+- Built a semantic page structure: `header`, `main`, `footer`, three sections, `nav`, `address`, and an `article` inside each card.
 
-- Фоны секций и карточек настроены через background-size: cover и background-position: center.
+- Built the header and footer layout with Grid: three columns (`1fr min-content 1fr`), center-aligned.
 
-- Стилизованы карточки: сброс списка, width/min-height, height: 100%, перенос при переполнении, сохранение отступов.
+- Laid out the menu, address, cover description, and cards with Flexbox, using `gap`, `flex-direction`, and `align-items`.
 
-- Проработана типографика, выравнивание строк заголовка служебными классами.
+- Implemented a reusable overlay using absolute positioning, `position: relative` on parent elements, and controlled `z-index`.
 
-- Вёрстка по макету с проверкой отступов и размеров через DevTools / Pixel Perfect.
+- Configured section and card backgrounds with `background-size: cover` and `background-position: center`.
+
+- Styled the cards: list reset, `width`/`min-height`, `height: 100%`, wrapping on overflow, and preserved spacing.
+
+- Worked on typography and aligned the heading lines using utility classes.
+
+- Matched the design mockup, checking spacing and sizes with DevTools and Pixel Perfect.
